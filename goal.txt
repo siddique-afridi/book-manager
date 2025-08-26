@@ -1,0 +1,10 @@
+📌 Mini Project Brief: Book List Manager
+🎯 Goal
+
+Build a small page where you can:
+
+Store a list of books in an array of objects
+
+Show them on the page using DOM manipulation
+
+Add a new book through an input form

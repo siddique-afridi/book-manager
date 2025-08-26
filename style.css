@@ -1,0 +1,111 @@
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(137, 85, 197);
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+
+.books{
+  margin-top: 10px;
+ 
+}
+
+#book-list{
+  background-color: #6705b8f2;
+     display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 50px;
+  border-radius: 12px;
+}
+
+.books{
+  /* grid-column: 2; */
+  /* display: grid; */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    background: #a15be884;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#new-books{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   background-color: #20c997;
+  border-radius: 12px;
+    gap: 16px;
+  padding: 50px;
+}
+
+.new-books{
+    margin-top: 10px;
+   background: rgb(6, 193, 78);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+h1{
+  text-align: center;
+}
+
+.inputs .input{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.input input{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+outline: 1px solid greenyellow;
+}
+.input button{
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgba(0, 255, 255, 0.455);
+  outline: 1px solid greenyellow;
+  }
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin: auto 40px;
+}
+
+.inputs .add-input{
+  padding: 10px;
+   display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+.inputs .add-input input{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+outline: 1px solid greenyellow;
+}
+
+.inputs .add-input button{
+  padding: 10px 30px 10px 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgba(0, 255, 255, 0.455);
+  outline: 1px solid greenyellow;
+  }
+
+

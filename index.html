@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>Book Manager</h1>
+
+  <!-- Search bar -->
+  <div class="inputs">
+    <div class="input">
+      <input type="text" id="searchBox" placeholder="Enter book name">
+      <button id="searchBtn">Search</button>
+
+    </div>
+    <div class="add-input">
+      <input type="text" id="add" placeholder="Add new books ">
+      <button id="add-btn" onclick="addBook()">Add</button>
+    </div>
+  </div>
+  <div id="books" class="grid">
+
+    <div id="book-list">
+      <div id="new-books"></div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <script src="addbook.js"></script>
+</body>
+
+</html>
