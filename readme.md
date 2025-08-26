@@ -27,5 +27,5 @@ A simple Book Manager web app where you can:
 
 ### 1. Clone repo
 ```bash
-git clone <https://github.com/siddique-afridi/book-manager.git>
+git clone <https://github.com/siddique-afridi/book-manager>
 cd Book-manager
